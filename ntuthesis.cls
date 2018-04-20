@@ -246,6 +246,6 @@
 \else
   \DeclareRobustCommand{\@startappendix}{
   \titleformat{\chapter}{\centering\Huge\bfseries}{Appendix \thechapter}{1em}{}
-  \titlecontents{chapter}[0em]{}{\makebox[4.1em][l]{Appendix \thecontentslabel}}{}{\cftdotfill{\cftdotsep}\contentspage}
+  \titlecontents{chapter}[0em]{}{\makebox[6.1em][l]{Appendix \thecontentslabel}}{}{\cftdotfill{\cftdotsep}\contentspage}
   \appendix}
 \fi
